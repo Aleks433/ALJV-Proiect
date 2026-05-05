@@ -16,6 +16,11 @@ public class DamageTrap : MonoBehaviour
             //activate the trap logic
             other.gameObject.GetComponent<PlayerStats>().TakeDamage(damage);
         }
+        if(other.CompareTag("Agent"))
+        {
+            //activate the trap logic
+            other.gameObject.GetComponent<MazeAgent>().TakeDamage(damage);
+        }
         
     }
     void OnTriggerExit(Collider other)

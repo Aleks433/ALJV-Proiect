@@ -16,30 +16,30 @@ Branch:                  6000.4/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
-Distro version:          #1 SMP PREEMPT_DYNAMIC Wed, 25 Mar 2026 23:30:07 +0000
-Kernel version:          6.19.10-1-cachyos
+Distro version:          #1 SMP PREEMPT Fri, 01 May 2026 19:46:26 +0000
+Kernel version:          7.0.3-1-cachyos
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        31949 MB
-Date:                    2026-04-07T11:51:47Z
+Date:                    2026-05-05T10:41:40Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alex" at "2026-04-07T11:51:47.717418Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alex" at "2026-05-05T10:41:40.133183Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-alex"
 [Licensing::IpcConnector] LicenseClient-alex channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alex-6000.4.1" at "2026-04-07T11:51:47.718448Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alex-6000.4.1" at "2026-05-05T10:41:40.134234Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              ce55521d6a6640d2879fc06c417b4746
-  Correlation Id:          9a0fdafda4f82e4b378fcc8b8886e4d1
-  External correlation Id: 4055924133801427147
+  Session Id:              9bade8ada6cd43e89390fd423723643e
+  Correlation Id:          dfd1caa024b55a37fe2fe84e5ef80cad
+  External correlation Id: 1452103446315254589
   Machine Id:              oNRIcCpWOQNkO9bnqk6muoIRBtE=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alex-6000.4.1" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alex-6000.4.1-notifications" at "2026-04-07T11:51:47.721272Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alex-6000.4.1-notifications" at "2026-05-05T10:41:40.135044Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 8320 x 2160 @ 60 Hz
@@ -53,11 +53,11 @@ Unity
 -name
 AssetImportWorker0
 -projectPath
-/home/alex/ipjv/My project
+/home/alex/ALJV/ALJV - Proiect
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-35401
+37767
 -licensingIpc
 LicenseClient-alex
 -force-vulkan
@@ -67,8 +67,8 @@ LicenseClient-alex
 8
 -gc-helper-count
 1
-Successfully changed project path to: /home/alex/ipjv/My project
-/home/alex/ipjv/My project
+Successfully changed project path to: /home/alex/ALJV/ALJV - Proiect
+/home/alex/ALJV/ALJV - Proiect
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -104,16 +104,16 @@ Successfully changed project path to: /home/alex/ipjv/My project
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [139897756159104]  Target information:
+Player connection [140542880058496]  Target information:
 
-Player connection [139897756159104]  * "[IP] 192.168.100.27 [Port] 0 [Flags] 2 [Guid] 879460340 [EditorId] 879460340 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.253) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140542880058496]  * "[IP] 192.168.100.27 [Port] 0 [Flags] 2 [Guid] 3631319942 [EditorId] 3631319942 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.253) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139897756159104]  * "[IP] 192.168.100.253 [Port] 0 [Flags] 2 [Guid] 879460340 [EditorId] 879460340 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.253) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140542880058496]  * "[IP] 192.168.100.253 [Port] 0 [Flags] 2 [Guid] 3631319942 [EditorId] 3631319942 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.253) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139897756159104]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 879460340 [EditorId] 879460340 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.253) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140542880058496]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 3631319942 [EditorId] 3631319942 [Version] 1048832 [Id] LinuxEditor(16,192.168.100.253) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139897756159104] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [139897756159104] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140542880058496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140542880058496] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -125,9 +125,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.45 ms, found 2 plugins.
 Initialize engine version: 6000.4.1f1 (8535861f39e1)
 [Subsystems] Discovering subsystems at path /home/alex/Unity/Hub/Editor/6000.4.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/alex/ipjv/My project/Assets
+[Subsystems] Discovering subsystems at path /home/alex/ALJV/ALJV - Proiect/Assets
 Forcing GfxDevice: Vulkan
 GfxDevice: creating device client; kGfxThreadingModeThreaded
 [vulkan] LoadVulkanLibrary libvulkan.so.1[vulkan] Loaded instance function vkGetInstanceProcAddr
@@ -165,7 +166,7 @@ GfxDevice: creating device client; kGfxThreadingModeThreaded
 [vulkan] Loaded instance function vkGetPhysicalDeviceProperties
 [vulkan] Loaded instance function vkEnumeratePhysicalDevices
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x557c5cde9c10 [0]: "NVIDIA GeForce RTX 3060 Ti" deviceType=2 vendorID=10de deviceID=2489
+[Vulkan init] Physical Device 0x5626f76f0cc0 [0]: "NVIDIA GeForce RTX 3060 Ti" deviceType=2 vendorID=10de deviceID=2489
 Vulkan detection: 2
 [Vulkan init] extensions: count=24
 [Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
@@ -254,8 +255,8 @@ Vulkan detection: 2
 [vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
 [vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x557c5cde4020 [0]: "NVIDIA GeForce RTX 3060 Ti" deviceType=2 vendorID=10de deviceID=2489
-[Vulkan init] Selected physical device 0x557c5cde4020
+[Vulkan init] Physical Device 0x5626f7aaae20 [0]: "NVIDIA GeForce RTX 3060 Ti" deviceType=2 vendorID=10de deviceID=2489
+[Vulkan init] Selected physical device 0x5626f7aaae20
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=251
 [Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
@@ -657,14 +658,14 @@ Vulkan API version 1.1.0 (1.4.312 supported by driver, 1.1.0 requested)
 Vulkan vendor=[NVIDIA] id=[10de]
 Vulkan renderer=[NVIDIA GeForce RTX 3060 Ti] id=[2489]
 Vulkan device type 2
-Vulkan driverversion=[580.568.0 (0x91238000)] uint=[-1859944448]
-Vulkan driverLibraryString=[NVIDIA (4), 580.142]
-Vulkan PSO: Cache data successfully loaded [size=36,path=/tmp/DefaultCompany/My project/vulkan_pso_cache.bin]
+Vulkan driverversion=[580.636.192 (0x9127c0c0)] uint=[-1859665728]
+Vulkan driverLibraryString=[NVIDIA (4), 580.159.03]
+Vulkan PSO: cache data not found [path=/tmp/DefaultCompany/My project/vulkan_pso_cache.bin]
 Initialize mono
 Mono path[0] = '/home/alex/Unity/Hub/Editor/6000.4.1f1/Editor/Data/Managed'
 Mono path[1] = '/home/alex/Unity/Hub/Editor/6000.4.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/alex/Unity/Hub/Editor/6000.4.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56606
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -678,8 +679,1182 @@ Register platform support module: /home/alex/Unity/Hub/Editor/6000.4.1f1/Editor/
   Expiration: Unlimited
 Register platform support module: /home/alex/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/alex/Unity/Hub/Editor/6000.4.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002806 seconds.
+Registered in 0.002051 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.338 seconds
+Domain Reload Profiling: 623ms
+	BeginReloadAssembly (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (50ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (135ms)
+	FinalizeReload (339ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Sysroot.EditorTests.dll at Library/ScriptAssemblies/Unity.Sysroot.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Sysroot.Linux_x86_64.EditorTests.dll at Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Toolchain.Linux-x86_64-Linux.EditorTests.dll at Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64-Linux.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1192ms
+	BeginReloadAssembly (89ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (172ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (639ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (3ms)
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8159 unused Assets / (23.0 MB). Loaded Objects now: 9005.
+Memory consumption went from 223.2 MB to 200.2 MB.
+Total: 13.960318 ms (FindLiveObjects: 0.719089 ms CreateObjectMapping: 0.996739 ms MarkObjects: 6.865755 ms  DeleteObjects: 5.378095 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 491.538408 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks
+  importAddress: Guid(4785bcc12c2fbc24ab46ff60d25d7241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks using Guid(4785bcc12c2fbc24ab46ff60d25d7241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7a0eea9bdff03d1066e4563c58595078') in 0.002227357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba5c0591179cf1a4d9682820fa0581ef DependenciesID=fa21c6173c2cb55c06cb980238fa6123 StaticDependenciesID=9fc20c1e72c20f0a52b3143c797009cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials
+  importAddress: Guid(61bbe09a4cbd1c14586fa030abeb5c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials using Guid(61bbe09a4cbd1c14586fa030abeb5c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'af8235bf0fd73925b4a86c21f85282fe') in 0.000302116 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ca232f7be4a96643be29fe4b13914c2 DependenciesID=e6dc07824a90edd11d4d212cb0e832bc StaticDependenciesID=cdccba79dd2f2d509253020bdd00153f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.772610 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default
+  importAddress: Guid(1aefb80fc78eacd4a99b5258b289d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default using Guid(1aefb80fc78eacd4a99b5258b289d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8134e9e794294f37a524c8734fcfbf9f') in 0.000327243 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4195d21474f80dee8785831b3a586d2b DependenciesID=02f0d1d52b797d3260ce37f02f704a21 StaticDependenciesID=8248aacdd3ca5f80244c3d21142b3b8f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404706 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old
+  importAddress: Guid(de756761675bb67409922333ddb2a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old using Guid(de756761675bb67409922333ddb2a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a6b63037b462026c9df43ed02fa87613') in 0.000320892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=478773822eb59cfe054acf57fd57ca13 DependenciesID=4a6fff2a26680bf7701ad68532a7ac2c StaticDependenciesID=9edd4390d9e71ae2d290809b805a6774 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057402 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V1.mat
+  importAddress: Guid(098dfc8046dbca741bcec18235d81ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V1.mat using Guid(098dfc8046dbca741bcec18235d81ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '719994bc33781ba0bc13991ca51f1f10') in 0.346380457 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78ac3a48d6181659b1203794135ed6c5 DependenciesID=cadcc51ca32d4fe0844b01cc47c9337a StaticDependenciesID=ee28ac70735fc7da02e5fdac60790933 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V4.mat
+  importAddress: Guid(47b565ff8af9f8b478994539289ab318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V4.mat using Guid(47b565ff8af9f8b478994539289ab318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4badecc218b2946918d5b157e7a3b016') in 0.006676991 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90dccfce1e9a6bfdab2e613182bfb930 DependenciesID=0ff5737e76d59094a74d6677cb5eff37 StaticDependenciesID=c29893d2bdf259a30dc30bc268d2245d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V5.mat
+  importAddress: Guid(4490037983240a74d88918658bb13d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V5.mat using Guid(4490037983240a74d88918658bb13d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cd819943a21ab247602df903680c46ce') in 0.004871565 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b69a8a3e854d9bca08c0b7ac516e7361 DependenciesID=101e6d1101e032faa05eef1fd6a0fe17 StaticDependenciesID=0a18ffafd777dea58c5e6a0e46daf3cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.583729 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-3
+  importAddress: Guid(75159b6aea163484da8d2a36a57e81cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-3 using Guid(75159b6aea163484da8d2a36a57e81cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '434f538c9b837463eeb4431aeb0631a5') in 0.000339977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b83f85649e0eefed3ee7d720ea8b2d2 DependenciesID=f11801413586d8b6429d581415414991 StaticDependenciesID=e460c3d228667905375c3ffcee3a68a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.578044 seconds.
+  path: Assets/Prefabs/EndZone 1.prefab
+  importAddress: Guid(fd94df67dcac12dc4a1259083fc2ef9e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/EndZone 1.prefab using Guid(fd94df67dcac12dc4a1259083fc2ef9e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '2c2bea935320592e8ce8ec8c4d907861') in 0.093180285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=652ee3624cb400e66c9547ebad6167c3 DependenciesID=45ec83a49cc28c5a6681f1e5d3bdc495 StaticDependenciesID=eebeb0bc094ba251b2a45829b5ee0987 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LB3D/RandomBlocks/Scenes/Dungeon-3.unity
+  importAddress: Guid(a89700008b4c61f408b30253107e0935) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Scenes/Dungeon-3.unity using Guid(a89700008b4c61f408b30253107e0935) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/LB3D/RandomBlocks/Scenes/Dungeon-3.unity additively'
+Loaded scene 'Assets/LB3D/RandomBlocks/Scenes/Dungeon-3.unity'
+	Deserialize:            1.450 ms
+	Integration:            1.857 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   3.312 ms
+ -> (Import Result ID: '3a90e92a5dd86beb05234fe6a6103bd8') in 0.079763636 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=795dc352352127e584d2f269402949ca DependenciesID=a16c70beafb05dc17192f739b53dcc2b StaticDependenciesID=77852ab8228f8979dc039e49e4ca9689 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V2.prefab
+  importAddress: Guid(8b3b6862ef5a7c8448582a10cd586453) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V2.prefab using Guid(8b3b6862ef5a7c8448582a10cd586453) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '9770cd3bdfafb453e6eeb7ee7c967e62') in 0.003654814 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3f62cd0238d855ac1e9b0b3c9daf1b1 DependenciesID=9180a0dbc794485700c5f78debfd8a27 StaticDependenciesID=c234c1fcb475ba48aabdd82552736675 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-1/Dungeon-1-L0-V5.prefab
+  importAddress: Guid(446fdad817118e74a8917468e07ae13d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-1/Dungeon-1-L0-V5.prefab using Guid(446fdad817118e74a8917468e07ae13d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '2a8535175c7efbefb271a2cb8fda5bb7') in 0.005139899 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea61554be7ad43641e97aeb7c8ea51f8 DependenciesID=b058c1a77b9b066070a2275ab7210ca1 StaticDependenciesID=cd63135ac8b28496599448ea533c911b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L3/CastBlocks-L3-V1.prefab
+  importAddress: Guid(9aaa9630c6eda134aa2135c46296e6d9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L3/CastBlocks-L3-V1.prefab using Guid(9aaa9630c6eda134aa2135c46296e6d9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '4c0f263e0defe76ce6a9e13e38a1923f') in 0.003885085 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adc8272cf91308c17ce6057dada3354f DependenciesID=11559d52e2b109589261d83f543d4752 StaticDependenciesID=abe39c5ea8654913bb356da57af12c72 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V12.prefab
+  importAddress: Guid(dcb6debf6174e3a4280a8dbe3be3f401) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V12.prefab using Guid(dcb6debf6174e3a4280a8dbe3be3f401) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'a14c9dee1c891df880da9ca29ea14c7d') in 0.003603958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bae5a90ddd2537bc8cc4d122d3b6ad0 DependenciesID=b0d8400405ef3afa02ac0e61c09289d0 StaticDependenciesID=c1d8e9a73370b15ec0e6571897ccee4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L2/CastBlocks-L2-V1.prefab
+  importAddress: Guid(0cb88e0ca727b914d991d2ac2d38e587) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L2/CastBlocks-L2-V1.prefab using Guid(0cb88e0ca727b914d991d2ac2d38e587) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'db056ab4b919b16d55e6312052782c62') in 0.003808522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf85139fbee97ffa251aba2499634d38 DependenciesID=680ac301bf5bc9a0a5c66455dc47848b StaticDependenciesID=16405cbbc33e73d950a49c89f60f6ea8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V5.prefab
+  importAddress: Guid(e4700f2c8b8f75642b56a9c81bdddd2e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V5.prefab using Guid(e4700f2c8b8f75642b56a9c81bdddd2e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '2a19b98972702acec3a7e4787ffae611') in 0.003766853 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0a7f4c2b2e40f2f3d0d74c7dd6d40fa DependenciesID=f243e361de5869318062874c3c65d97d StaticDependenciesID=5e30625bbe0c58cae4be1641133e4a04 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L3/CastBlocks-L3-V2.prefab
+  importAddress: Guid(dea85dc84d3acf646b62987ca122af24) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L3/CastBlocks-L3-V2.prefab using Guid(dea85dc84d3acf646b62987ca122af24) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'e175e6bc8ab5a0ef7f85252e89ef04cd') in 0.004165111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ce9e86dad42a5becb0130f584ecee40 DependenciesID=4148cf848d84e16beb89fb7479b1cfb6 StaticDependenciesID=1288c579407c2a9bc5de4b6e61243bad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V11.prefab
+  importAddress: Guid(e9b24caa23ee53c468deb50b5f7ea98c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V11.prefab using Guid(e9b24caa23ee53c468deb50b5f7ea98c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'bfb456f5533441473d544cca67ad70d3') in 0.003825393 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f027a4bd67820c3bf0b3ace50e6aa5af DependenciesID=79639015a5a85e9e9e8415032d075e3c StaticDependenciesID=9c8e2ba84c4a6fe61ee359a431640abe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Scenes/Mudstone.unity
+  importAddress: Guid(eb6ff156628da814a9ff6bdffd97e47d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Scenes/Mudstone.unity using Guid(eb6ff156628da814a9ff6bdffd97e47d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/LB3D/RandomBlocks/Scenes/Mudstone.unity additively'
+Loaded scene 'Assets/LB3D/RandomBlocks/Scenes/Mudstone.unity'
+	Deserialize:            0.452 ms
+	Integration:            1.099 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   1.558 ms
+ -> (Import Result ID: '7555ce53db6a5b4cc566ba2f9d37f497') in 0.014519317 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9a953159fe5df4ec040e01723a7c23e DependenciesID=7feff19f5cde72ed9225484dd95719e8 StaticDependenciesID=12ee007670f5ed3c862cbf6f72295d29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V4.prefab
+  importAddress: Guid(b49129a63a0346d42b473c15fd036bde) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V4.prefab using Guid(b49129a63a0346d42b473c15fd036bde) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'a3c0c78d08ed9293711396e423c566ac') in 0.003431956 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=713cdb4a297054846d80a513e5569408 DependenciesID=1bb3f8d99625486aaa861532875bdceb StaticDependenciesID=54ce48d249314ebe555611f461fb7dbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-3/Dungeon-3-L0-V1.prefab
+  importAddress: Guid(2ce7c9f03a019174b8f69c1b66604d95) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-3/Dungeon-3-L0-V1.prefab using Guid(2ce7c9f03a019174b8f69c1b66604d95) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'a2295c73fb68ef59e59914352ca0aad1') in 0.003447444 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4fbc3a58a374156e26803bdfd2f99cd DependenciesID=5b118252f85b8376de2370c37135700b StaticDependenciesID=d2147b5f647f4c0c77b2b14b4854572f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Safezone/Floor.prefab
+  importAddress: Guid(749ecb2b36761a84db1a3d0e0d4a9840) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Safezone/Floor.prefab using Guid(749ecb2b36761a84db1a3d0e0d4a9840) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '04efb0c4382d2fdfddfe1ddcd24a8957') in 0.003751956 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=510d7b2deb53fb36872e93caaf8115fc DependenciesID=733ae55f78819ee503ffb8bb6f4045db StaticDependenciesID=cc7a80c87d22cc622f818e7e7878188c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V1.prefab
+  importAddress: Guid(75d64b851d2d1ef4085d1ba8c65dd95a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V1.prefab using Guid(75d64b851d2d1ef4085d1ba8c65dd95a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f2e600909d5bd5e29f6ee056b60bf598') in 0.003760392 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd81f71d6c8e9e30a1bdc94516ac2811 DependenciesID=5bea13f12ff6f9438972484a577b3cbb StaticDependenciesID=755eff6acb6914f3b9bc59d8725259da 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L1/CastBlocks-L1-V1.prefab
+  importAddress: Guid(935104f72f8805446a9c60f10646861f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L1/CastBlocks-L1-V1.prefab using Guid(935104f72f8805446a9c60f10646861f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '2f7488ea4bd4bc6721b82c67230de8eb') in 0.005095726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67f4a60af729be4435f4b1169c9740bd DependenciesID=6cfdc55061e7d588348e286f1604127d StaticDependenciesID=8306ef88d32f91334c58c631f2730d08 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V15.prefab
+  importAddress: Guid(4f8046e5110d5b048849f315d4962221) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V15.prefab using Guid(4f8046e5110d5b048849f315d4962221) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '86ecfa940b23960fdf5cd731d6e910a2') in 0.003582578 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cba67645d75cb5e365a2e01fca6988d DependenciesID=e40bd50df3fdb1dbc14a7d95b71258a6 StaticDependenciesID=f53ea5982cb4adb0317d60c8a6a100e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V14.prefab
+  importAddress: Guid(5b2bfcb7d7534bc4688fe77c7f280970) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V14.prefab using Guid(5b2bfcb7d7534bc4688fe77c7f280970) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '56003ab3b305419cc73ac909ac56fd30') in 0.003558152 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac28a05b590bb079280023f86840e29c DependenciesID=688aac036dd4de31e82b5518a670a3a6 StaticDependenciesID=cf09e1ca3c91a568041d30b0c4f0b4d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V3.prefab
+  importAddress: Guid(f6ee86f8a03fb324c987fa46adbe95c0) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V3.prefab using Guid(f6ee86f8a03fb324c987fa46adbe95c0) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '88918f46523c7b8abd2290a60cd4c081') in 0.00357817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d29ff4cfbe89774bc53016726bd90cd DependenciesID=cd826227cf25241cd112ce3bfa854b94 StaticDependenciesID=d97faabab37cc64f9d94f6c2fe283abf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-1/Dungeon-1-L0-V2.prefab
+  importAddress: Guid(76885a6ad06d28e4b95dee69b28f6e32) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-1/Dungeon-1-L0-V2.prefab using Guid(76885a6ad06d28e4b95dee69b28f6e32) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '7fc217d1344a2f1445499a0dad9b4855') in 0.00351451 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=411075339daf3b07d4cb40fea3c76cdc DependenciesID=85ede1aae8b5d77f4e0f2289633cf30a StaticDependenciesID=fe54d2f6bba34b5884c48c32dfe8f9f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-1/L2/Dungeon-L2-V1.prefab
+  importAddress: Guid(77b88a865b1e89140955b029867b2880) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-1/L2/Dungeon-L2-V1.prefab using Guid(77b88a865b1e89140955b029867b2880) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '6714b47bae28497e794f8fa4ef35efb4') in 0.004881594 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29f8bf67acfdb2f4025c1a372e70ff4b DependenciesID=6eec8ed6311443899933c7eb2ce9f617 StaticDependenciesID=de214d55acea44a59df8dcf71c26918b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-1/L3/Dungeon-L3-V1.prefab
+  importAddress: Guid(e3bc8163331de444ba3ad1ce42f401b5) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-1/L3/Dungeon-L3-V1.prefab using Guid(e3bc8163331de444ba3ad1ce42f401b5) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f9324f572a78b6d602be064fd271a7f9') in 0.003686002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=862d5b808f581003ddc0e58b92c4b4a5 DependenciesID=524750d8b1fb5a11f2db95400fe514f6 StaticDependenciesID=feaffbff27334885111d63045f9ac891 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-2/L1/Dungeon-2-L1-V1.prefab
+  importAddress: Guid(da759bc2835e9e042a389946126fba05) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-2/L1/Dungeon-2-L1-V1.prefab using Guid(da759bc2835e9e042a389946126fba05) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'c521800489837908b2fed6472412f64a') in 0.003544957 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b60d6a0177d5c93520e71b20261e74cc DependenciesID=806195575396a664c16e7b3a745803df StaticDependenciesID=08bcdaa54a655baae251f8d8c3342a7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L1/ManyVertical-L1-V5.prefab
+  importAddress: Guid(f98ec2288d6584a4c99e60b486aa6c03) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L1/ManyVertical-L1-V5.prefab using Guid(f98ec2288d6584a4c99e60b486aa6c03) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '8ed2d16b7f1bf6d958dda4b90a05e7e0') in 0.00374346 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58a4fe010f2112c3104f49dfdbc0681c DependenciesID=a4ab63dcf1abbb17a2c085d7d081835e StaticDependenciesID=7afacd83f106ba8b2f79b1ccccd3f7cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L2/ManyVertical-L2-V3.prefab
+  importAddress: Guid(3817dd982e5b10e458a4b4b1391a822f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L2/ManyVertical-L2-V3.prefab using Guid(3817dd982e5b10e458a4b4b1391a822f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '2f9cc77342e071cba07215b51ca72348') in 0.004854253 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d67dba397fe295531d418133366681f0 DependenciesID=2686d17fd7f93de06083a245a37cdccd StaticDependenciesID=631632c82d308275435260f20666f398 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V8.prefab
+  importAddress: Guid(5156e5d5765a12d429d53ef08ce30276) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V8.prefab using Guid(5156e5d5765a12d429d53ef08ce30276) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '3b319532e4bbbd123553d2c9a08a49d9') in 0.003549086 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=094d8e137362f14ac71c735559987e87 DependenciesID=f9d81838f98a01f32ef6b7f70ea7267e StaticDependenciesID=358846c3de226519195c18040924c957 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V9.prefab
+  importAddress: Guid(2511fc8ab063b194a91614e54c9cc8b6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V9.prefab using Guid(2511fc8ab063b194a91614e54c9cc8b6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'fa3da107bc28285b02b8305bcce7ede4') in 0.003433278 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=509ad99d259008e103b0d05703b8bd69 DependenciesID=20b7d603af8134c934a5079ae3ae6af4 StaticDependenciesID=e52e88aa9e3bbdf76c89ceb9ee487a96 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-1/L1/Dungeon-L1-V1.prefab
+  importAddress: Guid(251456f4e34784c42a3bd9767fb3556b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-1/L1/Dungeon-L1-V1.prefab using Guid(251456f4e34784c42a3bd9767fb3556b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '5d1d45042780f46f58a150b289cc9490') in 0.00388226 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe0edcf4bd01c40feb31e9a1fe13e0d7 DependenciesID=4396309e7380c310568334df598e7050 StaticDependenciesID=87fca1251c0c90ffeb9653f39c67658b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/EndZone.prefab
+  importAddress: Guid(d8df4970524a8d91d856cb3e499c773d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/EndZone.prefab using Guid(d8df4970524a8d91d856cb3e499c773d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '5266f6a50187486fac36d6bc1d566409') in 0.010660531 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a326ba29c60a1af6b491b3c938135527 DependenciesID=12bbdfff5b9e183f5981ae4f7fbfa119 StaticDependenciesID=1cb691e1c3ca39c3166afe0a59ea3dc7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L1/CastBlocks-L1-V3.prefab
+  importAddress: Guid(e72b1575429246341847d7253b270a56) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L1/CastBlocks-L1-V3.prefab using Guid(e72b1575429246341847d7253b270a56) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f44022783c64538d68db290f893eaacd') in 0.003953514 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c639c6e5878a0d6dccb5aa1571ae3fdb DependenciesID=16938cafa1c47c5b29b75cadd3859d44 StaticDependenciesID=40136a86c722a7e667c66e9689325e7a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/TeleportWormholeTrap.prefab
+  importAddress: Guid(69db0668f3a240305a62ef691f838d13) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/TeleportWormholeTrap.prefab using Guid(69db0668f3a240305a62ef691f838d13) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'e7ff1deeb7a9269db002a94cf74af99a') in 0.023194746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2fbd4857f141670625c49201d13f6ef DependenciesID=09cd9380251b2e447a156014120e6fa1 StaticDependenciesID=e9e017ecb47ecbcfed3472fff72f69dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LB3D/RandomBlocks/Scenes/Dungeon-2.unity
+  importAddress: Guid(03885255098f51e49a11792a77995450) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Scenes/Dungeon-2.unity using Guid(03885255098f51e49a11792a77995450) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/LB3D/RandomBlocks/Scenes/Dungeon-2.unity additively'
+Loaded scene 'Assets/LB3D/RandomBlocks/Scenes/Dungeon-2.unity'
+	Deserialize:            0.514 ms
+	Integration:            1.129 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   1.649 ms
+ -> (Import Result ID: 'aa87a7764c68bce36b80b4f83bb7f6ce') in 0.024842415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6511889da56025dc7cd851f98fba4540 DependenciesID=f87bdbd5a7587764fd9ac257fb363cd0 StaticDependenciesID=caefb05195dc555f3c1ac80bb4bf952c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V4.prefab
+  importAddress: Guid(2c8cb12cef1f7ac4587c7ed650ddb36e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V4.prefab using Guid(2c8cb12cef1f7ac4587c7ed650ddb36e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f626bb01575c4ae78448290026efa923') in 0.003635718 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9281ca5a9c718836bc5c045d4d6d354 DependenciesID=2be5561bcd84217fd3d68ca993185549 StaticDependenciesID=26f4ae23e98c3400696146c606df553b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V2.prefab
+  importAddress: Guid(87234c13a39afac43bf8918750f60b34) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V2.prefab using Guid(87234c13a39afac43bf8918750f60b34) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '9f48044d2b20f64829311b592106e42c') in 0.004192572 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=917efd2f52fd66dda4febadb6d9a9c67 DependenciesID=594735081c8c0debfdc76aa488cf6f26 StaticDependenciesID=f303ef349dd3190aaa3c4464e8b93be5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V3.prefab
+  importAddress: Guid(a0e83b317e667bd40aba06d5e78c8723) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V3.prefab using Guid(a0e83b317e667bd40aba06d5e78c8723) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '1c0bbb0c8d33a92a352df84ac87a6bf0') in 0.00393575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75e257ebf3a7ca4c8f53bf0163427d33 DependenciesID=b184a8b8799ef162ed668694cb879c15 StaticDependenciesID=bad77e6e32044440a3a77c837bb59243 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V3.prefab
+  importAddress: Guid(c88902bcdebadd747987dded3bd53d8c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V3.prefab using Guid(c88902bcdebadd747987dded3bd53d8c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '124d8ef140f8f729cffe9ed34972327e') in 0.004003427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0981fcedceee951d8b67da1dd3810f0b DependenciesID=adb473bbcdc211b5f5799ba5b0707b72 StaticDependenciesID=46d9d68927e14c54314a12fa9a7e44d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-4/L2/Dungeon-4-L2-V1.prefab
+  importAddress: Guid(87e95586677066b4396c719c22341c1e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-4/L2/Dungeon-4-L2-V1.prefab using Guid(87e95586677066b4396c719c22341c1e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '3053451be555efff964d885b5c4daa37') in 0.004080181 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40c7a84ed0bbacf02f182ce0221120e1 DependenciesID=e2caef7c4dcbc5e25adde973d1e40fbc StaticDependenciesID=efec3dfb76b4ce03389024ddd88ac014 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/TeleportLocation.prefab
+  importAddress: Guid(453e270713c04f32a9c129cfed7da0ed) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/TeleportLocation.prefab using Guid(453e270713c04f32a9c129cfed7da0ed) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '582b689e978c80f17682209c81416959') in 0.002416361 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a55e52dae9fb723fe913d18a49e6712 DependenciesID=40ff696fa53cc968c0f9c4d664d1fb69 StaticDependenciesID=b8b0ccedf23d76913513fa48b994e54b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LB3D/RandomBlocks/Scenes/Sandstone.unity
+  importAddress: Guid(63c0fa90bd96aab47a2ea07c7592b439) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Scenes/Sandstone.unity using Guid(63c0fa90bd96aab47a2ea07c7592b439) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/LB3D/RandomBlocks/Scenes/Sandstone.unity additively'
+Loaded scene 'Assets/LB3D/RandomBlocks/Scenes/Sandstone.unity'
+	Deserialize:            0.462 ms
+	Integration:            1.046 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   1.517 ms
+ -> (Import Result ID: '84d1d7b7b6f1ca091d2de4d662820f56') in 0.018795246 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=715d3d20c717ff77d279ae1879c60782 DependenciesID=e2212b17dc60f79de511f87cbec6d514 StaticDependenciesID=67537673a0e5cd9b0058d4cddffd8e44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old/Old-V3.prefab
+  importAddress: Guid(a18b1cebe0cfcca4b96ec184de8f2ea1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old/Old-V3.prefab using Guid(a18b1cebe0cfcca4b96ec184de8f2ea1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '6a4975b163bd784952aef8bf291c76b8') in 0.004374724 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f79f793f21bc525a439c2ba40a63423 DependenciesID=13b00447b088dc995c88c69b5c49c657 StaticDependenciesID=093df59c5d4e2a8165a4b639bea365b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V16.prefab
+  importAddress: Guid(d60ebe2a391c95a4e84345c2f5834e9d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V16.prefab using Guid(d60ebe2a391c95a4e84345c2f5834e9d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'd4fc9400e7b71630ce8e905926c7729a') in 0.004272241 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6318ffc1459c1613ebf6a0589d0c777e DependenciesID=b8407646d64b2a6784a190bfd836c031 StaticDependenciesID=5d4c8b1dd496a1538754383174488308 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V2.prefab
+  importAddress: Guid(e237ff56f41da3c4c9906e92066c3951) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V2.prefab using Guid(e237ff56f41da3c4c9906e92066c3951) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'ec491cf08c89b4b2dcf3e052110dc93e') in 0.003910974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c710c48f420d71875345745578e91362 DependenciesID=acb8e5bfb0a1a739bf56eda08a55cfa5 StaticDependenciesID=9d0ac824d0b0f5703045dc3b9cfb7e0d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L3/ManyVertical-L3-V1.prefab
+  importAddress: Guid(aa03e6e97e794504993b7e0d77c1498e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L3/ManyVertical-L3-V1.prefab using Guid(aa03e6e97e794504993b7e0d77c1498e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f4157d2e4561800fcecabf5d29c198fc') in 0.006365386 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94f6a61caaab38bd940d514e16208740 DependenciesID=b32906ff125f2cc97e0382db65d6c6fb StaticDependenciesID=b27aa8718d6933ea8be67a86ab69512b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-2/L2/Dungeon-2-L2-V1.prefab
+  importAddress: Guid(50be8c7cfa5dd5442b1e9df352361ae9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-2/L2/Dungeon-2-L2-V1.prefab using Guid(50be8c7cfa5dd5442b1e9df352361ae9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'cd7d5e36fc3d3e96be29acb528a7718e') in 0.004378801 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e01a03f01f2d65ec4cd208b07616d256 DependenciesID=050092f107cb81e5146c551cfbcbb6ae StaticDependenciesID=9d9999c22bae448fc27ce4e812634cf3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-3/L2/Dungeon-3-L2-V1.prefab
+  importAddress: Guid(0788e001d37450a44ba3f739deb8fb83) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-3/L2/Dungeon-3-L2-V1.prefab using Guid(0788e001d37450a44ba3f739deb8fb83) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'd6a380d67931ece00bd67190fc060551') in 0.004080712 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13fec543e073e0168c7245cc109a3a2d DependenciesID=3debf93dc6ee24364cecf695c3d1eec6 StaticDependenciesID=1b5bcda6b991598fec22b6a86a99d365 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V6.prefab
+  importAddress: Guid(06912cf9ed5ea4847a553996833a47bc) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V6.prefab using Guid(06912cf9ed5ea4847a553996833a47bc) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '97b6d84dad554c898302285649be6247') in 0.003847966 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c16db2fa0e1aaa16e3750f82cfd3e04e DependenciesID=921b0a5752c29dc8206b6eb3aa6f84fd StaticDependenciesID=a727446184777d3eb0d6326014d0ca17 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/SandStone/SandStone-L0-V1.prefab
+  importAddress: Guid(776baa2c34195ce4b936405e01bd1f66) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/SandStone/SandStone-L0-V1.prefab using Guid(776baa2c34195ce4b936405e01bd1f66) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '566897ed02a4b56f2af32e661e7a8ad9') in 0.004295735 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c36e99309b0b5579379cf36044c1f357 DependenciesID=5bff12210bb83abfebf2d0b62b514ce1 StaticDependenciesID=513aeb74db026a8d87bcc793c4deebd1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Safezone/Wall_3.prefab
+  importAddress: Guid(99e82abb3d1b56a42b855cb62463d564) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Safezone/Wall_3.prefab using Guid(99e82abb3d1b56a42b855cb62463d564) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'b33d16367992921b202296f757294c5a') in 0.004140695 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=144b94166d13ecfe5a07728e75cb7996 DependenciesID=9652308f46792322ab439b7dc4f828df StaticDependenciesID=b0752fad02b38f04072274518dab957b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LB3D/RandomBlocks/Scenes/SampleScene.unity
+  importAddress: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/LB3D/RandomBlocks/Scenes/SampleScene.unity additively'
+Loaded scene 'Assets/LB3D/RandomBlocks/Scenes/SampleScene.unity'
+	Deserialize:            0.501 ms
+	Integration:            1.170 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   1.679 ms
+ -> (Import Result ID: 'b00cd9c4997204c9323b0e0b7e67a33f') in 0.017155321 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a58739912fed36b4f923d1693475bc9e DependenciesID=b21d716de8a93ac61d9a5dcfeeaf838d StaticDependenciesID=ba38cf109b8bc514251dffae2bcc6dec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V2.prefab
+  importAddress: Guid(8c859fa5364a9d84a9b12483b1271fe1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V2.prefab using Guid(8c859fa5364a9d84a9b12483b1271fe1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'd49266ac391d256567bee076af9e13d1') in 0.004650561 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ffa19789d4fabd75b00066b67e89633 DependenciesID=f0197bc651290043ef6e985bf9d812ea StaticDependenciesID=5c89c8529cfff1e7cf410947aa48cebb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-1/Dungeon-1-L0-V1.prefab
+  importAddress: Guid(6b9d15ed8af4f7a41adf74f8af0a717f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-1/Dungeon-1-L0-V1.prefab using Guid(6b9d15ed8af4f7a41adf74f8af0a717f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '2404f43690b2519cac2f00d52d755cc1') in 0.004151655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=539f40291d9e133781ea9547214e9803 DependenciesID=ecf9faa3f4fb9deca2efa9c3251a4237 StaticDependenciesID=dbe3069434dbe9630ece2490b0bfc2ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V4.prefab
+  importAddress: Guid(136389a0d867ad14abef117ae8b8a8d0) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V4.prefab using Guid(136389a0d867ad14abef117ae8b8a8d0) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '1a993f47a9f9c81897d31baa634a42a0') in 0.003982979 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d607c8b22fefd8c5263bb5ea90e2edf DependenciesID=87fa3cc2f9ff6af0ffe293e0d9ea6384 StaticDependenciesID=1bd8e8b1c54e2e28702aaf0f5cb868cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V19.prefab
+  importAddress: Guid(3a3f84abfbf1e044bbc073343b4a798e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V19.prefab using Guid(3a3f84abfbf1e044bbc073343b4a798e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'd2fdc0673e12165fcd8ae7f39f7191f9') in 0.004208812 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad210f090961e2c49984bd8ed7345506 DependenciesID=2533346c368a5f14071fab3d5d0b25db StaticDependenciesID=ae42f52543afcb64ff8160710970bfc4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V5.prefab
+  importAddress: Guid(3d00258e3faaed34781065799bc19f3f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V5.prefab using Guid(3d00258e3faaed34781065799bc19f3f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '670886f21009c889f71a175ec6c4c736') in 0.004258185 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca94854664c202cffed82d126c9793bf DependenciesID=bfb9142436f0e1d1bec7b5fdce7c6ecc StaticDependenciesID=dee4f23137cddb9d03a6f9eefa3548c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V4.prefab
+  importAddress: Guid(d9a63e8a6ccb888428193b1222ca837b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V4.prefab using Guid(d9a63e8a6ccb888428193b1222ca837b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '89efbd39a9e604aa98bf43fd3b86437d') in 0.004376717 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92818c8785b36aec52d34aebc6a5b275 DependenciesID=592b7ce30968fbf29388c45eba96f3b6 StaticDependenciesID=541e6c8ccd923291d4cf2f8fc1c174b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L1/ManyVertical-L1-V4.prefab
+  importAddress: Guid(f0d344d47d7c1584e88d414c2b0fc4dd) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L1/ManyVertical-L1-V4.prefab using Guid(f0d344d47d7c1584e88d414c2b0fc4dd) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '695ab7d429a9733020cec113be80db36') in 0.004152366 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6f192848d9dbdad47f1084b5138b540 DependenciesID=f45703724a44525970aadd60b4c0d9bf StaticDependenciesID=059fcca657d6fcbd62315139ecfe5eef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L2/CastBlocks-L2-V2.prefab
+  importAddress: Guid(0d460a786c4ccec4b948637a5fea6384) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L2/CastBlocks-L2-V2.prefab using Guid(0d460a786c4ccec4b948637a5fea6384) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '71813e023c74162934d9521fc7bbe0e8') in 0.005998559 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=213ee4688fa28b9e1e945a848660d7b6 DependenciesID=5911b2885c2172d02b27cb3f30fac5c2 StaticDependenciesID=594cca973ca97885bcfc68a6ed2167b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Mudstone/L3/MudStone-L3-V1.prefab
+  importAddress: Guid(ca6d52335d9536743b29f192f0779502) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Mudstone/L3/MudStone-L3-V1.prefab using Guid(ca6d52335d9536743b29f192f0779502) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'e54cc2f1f0b411b96dbd8c5728beee19') in 0.003866581 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=360606146d2b03cb6e71842720db78af DependenciesID=5fd7afa3b2ad6e5724e38c27cc4f9052 StaticDependenciesID=20dcf4aa08dae95904f99323d31ddd1a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Environment.prefab
+  importAddress: Guid(5305ecd0bc660ce4291851abe0dc5605) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/Environment.prefab using Guid(5305ecd0bc660ce4291851abe0dc5605) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '1d7c42275ff26f43c150a340197fb81a') in 0.147828974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=276398089d07f1baef1f3cdf601fdda4 DependenciesID=d53f2d07357b18fabfc65555bc405fe0 StaticDependenciesID=5cc6bd908a1f7845565536c57528f473 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 389
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Scenes/ManyVertical.unity
+  importAddress: Guid(5d0b2c741cb3cbf4dba2b1bba0fcbc1f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Scenes/ManyVertical.unity using Guid(5d0b2c741cb3cbf4dba2b1bba0fcbc1f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/LB3D/RandomBlocks/Scenes/ManyVertical.unity additively'
+Loaded scene 'Assets/LB3D/RandomBlocks/Scenes/ManyVertical.unity'
+	Deserialize:            0.628 ms
+	Integration:            2.437 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   3.070 ms
+ -> (Import Result ID: '97db8980892a40d5f66190df3341d281') in 0.034273611 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bea4c5ba054992585e1f4816587ac001 DependenciesID=3cf8b0fdcb3b847f17c2c853b9069ac0 StaticDependenciesID=9861b0401f8fcaf804e5a4f511e01eb4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V3.prefab
+  importAddress: Guid(40be8f1755883184bb28df784bee2f8a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V3.prefab using Guid(40be8f1755883184bb28df784bee2f8a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '495022d08585547dda9a4773128b7e0b') in 0.003704036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40b8eeb602da087e501383a70e93ee4d DependenciesID=a5f391704cf4f92c1891425658228f54 StaticDependenciesID=8134fffa27b8df69d2009a7f02fe3cc2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L2/ManyVertical-L2-V1.prefab
+  importAddress: Guid(dd8ee1eb73485d740a6bd7913f4feb61) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/ManyVertical/L2/ManyVertical-L2-V1.prefab using Guid(dd8ee1eb73485d740a6bd7913f4feb61) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '611c7ec72726a361908a5971b246e002') in 0.00531148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ca00950e66bb04421172fb3bb67a7f6 DependenciesID=ea0ad2a1e33ded3865a264ac693e60e4 StaticDependenciesID=d84986bc8af8dc2d5314902f0ec61dd4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Sandstone/L2/SandStone-L2-V1.prefab
+  importAddress: Guid(da0f599776a30b4478a092836a6cf3d9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Sandstone/L2/SandStone-L2-V1.prefab using Guid(da0f599776a30b4478a092836a6cf3d9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'ba9b87304e459eec8a77fc8f3433f188') in 0.003967069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82151b124872a74618280b50369d86c8 DependenciesID=dcf29db5a58c2f79a7335bc5a97ea272 StaticDependenciesID=a073fc115a7033e0fd6fd79192e55b83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V13.prefab
+  importAddress: Guid(4c7548f5568ed0f459d77f3d14ef4eba) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V13.prefab using Guid(4c7548f5568ed0f459d77f3d14ef4eba) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '98111749c777f4d4d7d36702cf59bb59') in 0.004011622 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0dbc634df660e0290f54d2d61a94930 DependenciesID=bc4ce2b2c371c8e5a3d10813763d6da4 StaticDependenciesID=dfe53d65a961efc0e0f08928d8919380 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V7.prefab
+  importAddress: Guid(38c37a40ba03f2343a681e81715ce32e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V7.prefab using Guid(38c37a40ba03f2343a681e81715ce32e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '95e36318c724842298f7339ac7e62bda') in 0.003831155 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0134b1c1fd778b3a88dcf45bd58da241 DependenciesID=30930c13aa10497d87624aa73649b5a8 StaticDependenciesID=b99d274a12141bf19fff310694bdcf71 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V1.prefab
+  importAddress: Guid(eeff8962d17fbfe4893b604f91565ff1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V1.prefab using Guid(eeff8962d17fbfe4893b604f91565ff1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'b13cad50eb3ec7c55dc26c650f9310a6') in 0.003697584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7436517470d704a1ae62c1232b3540ca DependenciesID=793d13e85879de581cad463541399ddf StaticDependenciesID=4aa4240e9c49407125ab478af938a621 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/StartZone 1.prefab
+  importAddress: Guid(3b5d9367ec784dc0fa3c3937e60208f6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/StartZone 1.prefab using Guid(3b5d9367ec784dc0fa3c3937e60208f6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '7e8bd6f9d841cea90d7bcb8041448add') in 0.005818661 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41e27518f8d9b799f52b62de014870ee DependenciesID=b858bef6f8f9f6b260fc9919f533a628 StaticDependenciesID=7e7ee45bce850a0234e620ed7096984c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V5.prefab
+  importAddress: Guid(05ad1aeb473b9294ab9fc65c34ad24c9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V5.prefab using Guid(05ad1aeb473b9294ab9fc65c34ad24c9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '0b77aaee6937efd6d69f38bd293c7ccb') in 0.003853056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c73bbda4281a9a9b1e2ab60af90f5c3 DependenciesID=c7b9f88297702d93a1b2cacecc18833e StaticDependenciesID=f56f4d45903a1d6d8c6780a9a7f28f92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V5.prefab
+  importAddress: Guid(10de16d1851cdaf4499f251424586e3b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V5.prefab using Guid(10de16d1851cdaf4499f251424586e3b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f276eea6149a5570daf8776170747db5') in 0.003817519 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0b827a4b935250eee579e575227b550 DependenciesID=10643889a0aed9a29c489d9130c379dc StaticDependenciesID=f403b7c69212f05a9855fd39beb31171 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V3.prefab
+  importAddress: Guid(321fbffc5e7fe0f43adabcc75a23122a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/CastBlocks/CastBlocks-L0-V3.prefab using Guid(321fbffc5e7fe0f43adabcc75a23122a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '45c60aceaf43c55190088ea6b5864740') in 0.003741616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7cf6e74e2f72ec097a44dd4dce2816b4 DependenciesID=d1b130aeee2234c8a2f7b5a489ccd762 StaticDependenciesID=5a00443a0fd52fa90684f1d1fd0ee342 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/TeleportTrap.prefab
+  importAddress: Guid(8574f59caf2642d79a54b3bf848cc4cd) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/TeleportTrap.prefab using Guid(8574f59caf2642d79a54b3bf848cc4cd) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '5c354298f397b20ab47a052599f89301') in 0.019246211 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50a42c94fca4c5945e1b73761a8dd615 DependenciesID=9c5ce2b415551d1af69546896f4ee567 StaticDependenciesID=5f083ab6f294e69958eb715018e11abe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V2.prefab
+  importAddress: Guid(b1cb9d0c045181d499d0ecc861b105d5) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-New/New-V2.prefab using Guid(b1cb9d0c045181d499d0ecc861b105d5) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'e8be535479dd582db0b79cd210e0a5fb') in 0.004005892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e375be7dcb9e43d3ca5713b33a9da72 DependenciesID=c65844e4063495be0f6c2db8ace4ca3d StaticDependenciesID=a14fa31c9b45db078114648db64d2bcf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V1.prefab
+  importAddress: Guid(266e44eb9a8242f408258ec497daf881) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/RandomMasonry/RandomMasonry-L0-V1.prefab using Guid(266e44eb9a8242f408258ec497daf881) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '97ce8a78bfd57ce167ee778c7003bcab') in 0.003939117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8034268301e0f1b84aaf6262ce6af581 DependenciesID=7182b642ab08a5bc0000ae692057644c StaticDependenciesID=2b8a600ca56e2ce61a5fdb4e54eca5b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/StartZone.prefab
+  importAddress: Guid(a4091d002dd981ffaadd5b6a073033a1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Prefabs/StartZone.prefab using Guid(a4091d002dd981ffaadd5b6a073033a1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'cf27c8927f422cf3dce5cb4f38fc5456') in 0.013694721 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9388e555812978e6e08e0b7ec2d00f66 DependenciesID=6d141ab257b00ad9bba4673b5b930c65 StaticDependenciesID=8ef235470f74c4c57afc5563da55cd0c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V10.prefab
+  importAddress: Guid(4f4f60b28dcaca64b8394fa246c33d5e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old-Mossy/Old-Mossy-V10.prefab using Guid(4f4f60b28dcaca64b8394fa246c33d5e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'd811a74df24aad1bfe7ed8a03d84910f') in 0.004789632 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07c2e8af4945010b59f285bf8b3b737b DependenciesID=9c62564877e96d948f867b356a323a6b StaticDependenciesID=a85dfa4eac48e5d82aaf4e12910c5923 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V6.prefab
+  importAddress: Guid(5cc2630c877bb9a428e78420123b6943) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V6.prefab using Guid(5cc2630c877bb9a428e78420123b6943) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'db398b9a0166f11d3c2870278cfca889') in 0.003921443 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cffadfb0e9f7143a0893ad775a5754a2 DependenciesID=c0800c5d11b0a6d383421d21c9f37f4d StaticDependenciesID=651c8ec9f64b8cdc4f3a451a4a696590 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-4/L3/Dungeon-4-L3-V1.prefab
+  importAddress: Guid(2d812ec989e17f842bd8f5a0c2207118) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-4/L3/Dungeon-4-L3-V1.prefab using Guid(2d812ec989e17f842bd8f5a0c2207118) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'bce84a52c32e26a56861fc003c766466') in 0.004176461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87d8b57b3e0e9bc6adcdf9b40d5230ea DependenciesID=3a5b5e684e71235069ba301f09a39bab StaticDependenciesID=7943d839c6486a766879cddb04f2ef68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LB3D/RandomBlocks/Scenes/Dungeon-1.unity
+  importAddress: Guid(0a258d8dc00f32a46a3102ef0bf266f3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Scenes/Dungeon-1.unity using Guid(0a258d8dc00f32a46a3102ef0bf266f3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/LB3D/RandomBlocks/Scenes/Dungeon-1.unity additively'
+Loaded scene 'Assets/LB3D/RandomBlocks/Scenes/Dungeon-1.unity'
+	Deserialize:            0.674 ms
+	Integration:            1.327 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   2.009 ms
+ -> (Import Result ID: 'c1e3deb7eb9dfa593c5da23b8f23d223') in 0.035837073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01ef3ff6bc5b4aa97fa03bfcda158c51 DependenciesID=96a6cff5c99a9c8e578d1eb551444ec7 StaticDependenciesID=681d3a5426a688741733dc4eda60a8f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-3/L3/Dungeon-3-L3-V1.prefab
+  importAddress: Guid(82d505b921fcf1445b4508f4993a1797) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-3/L3/Dungeon-3-L3-V1.prefab using Guid(82d505b921fcf1445b4508f4993a1797) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '06f04edc2145fa1d592e5c61d3fc0073') in 0.003960527 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdf1400f99536403b5363e5f3d8ef4fc DependenciesID=a80c39dcb30258ea0d56c001a91ea66e StaticDependenciesID=023a2ba9f21bef9a861337fa3f2ab585 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old/Old-V5.prefab
+  importAddress: Guid(61abd0ba3e9e84148bd2a16aa23387bb) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old/Old-V5.prefab using Guid(61abd0ba3e9e84148bd2a16aa23387bb) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '0ea46170dd2e985c65536af98958d6c3') in 0.005221932 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f79e328a4b1674bfe58d71181f2a429a DependenciesID=5c015d608588b19f280184b7ef90a69f StaticDependenciesID=b5630ee483e753dcafa8f52c1dee9b63 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-3/L1/Dungeon-3-L1-V1.prefab
+  importAddress: Guid(76558db7db8e95b43ae5303ce69d487d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-3/L1/Dungeon-3-L1-V1.prefab using Guid(76558db7db8e95b43ae5303ce69d487d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '9b0ae063d07faf893bbb7b98eac01bc7') in 0.00386632 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2fb5ee13be25f151cc0967419c8eeae DependenciesID=f94a07b3c3483994a6062513164ed21a StaticDependenciesID=547f151731164cbb8e08f34f1afc96cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old/Old-V1.prefab
+  importAddress: Guid(8d11eb4cb0953b641a22f5706023ab8d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Default/Block-Old/Old-V1.prefab using Guid(8d11eb4cb0953b641a22f5706023ab8d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'a9951620d1082a5902b6a44b31adea98') in 0.004150733 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20fefcc5ba305f8b0d91fa15c9b17cf9 DependenciesID=56e9eeff3a20614f72da293cbde837d8 StaticDependenciesID=183f06a15ca298e51a4b6ed7e1d25348 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V20.prefab
+  importAddress: Guid(77377390c89df7241b9f8b3ab315dca5) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V20.prefab using Guid(77377390c89df7241b9f8b3ab315dca5) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '19548175835d0acfc10c7ff7348db30d') in 0.004158959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6555d63a7dbbbf1e307dbf4696cc07d3 DependenciesID=89975a58433647f0dc89a0725581c8bd StaticDependenciesID=53570a254fef6a9e8e4c35e78246d178 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-4/Dungeon-4-L0-V1.prefab
+  importAddress: Guid(fb215db43f2944046be9e805f200d40c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Dungeon-4/Dungeon-4-L0-V1.prefab using Guid(fb215db43f2944046be9e805f200d40c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '75357082ab8e429b6a01120404528d32') in 0.006318619 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eadc43267b5708b38692014d29666211 DependenciesID=2c77bdc5520eb43f9f58ece48194bc4d StaticDependenciesID=6546674d5e172b9bcfae0e4370a21a16 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Mudstone/L2/MudStone-L2-V1.prefab
+  importAddress: Guid(a3228533100609e46bb4cbfb543f5e2d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Mudstone/L2/MudStone-L2-V1.prefab using Guid(a3228533100609e46bb4cbfb543f5e2d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '3e7c4950d2274346ca804f58ed692894') in 0.004152767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5121fc21c1dda83446bf2ce6f493dccd DependenciesID=fcc8a149b9d0e91db045e5171b7f7494 StaticDependenciesID=47bec8774252c8a68139d1eda786d23b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V5.prefab
+  importAddress: Guid(95364e1019ed0b048aa026e4df53fade) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/ManyVertical/ManyVertical-L0-V5.prefab using Guid(95364e1019ed0b048aa026e4df53fade) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '7c66ed8e4761dccf8d0f2b9a07206f09') in 0.004076895 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75a53840fc3cccd9b0ff53dd26bee5c6 DependenciesID=229069fee73b7411b24cf0fea35bb663 StaticDependenciesID=53d0f56c11395b9be88a9c39bcc9140b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V9.prefab
+  importAddress: Guid(d84335de85cf185469cb4288e94c7490) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Floors/Default/Floor-V9.prefab using Guid(d84335de85cf185469cb4288e94c7490) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '15cdc7ca990ce5e61c71d8e2748d8318') in 0.003916935 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ee29b48305236992551c0855fb75e59 DependenciesID=4bc442ddc9d5f2d62b554f0978405c44 StaticDependenciesID=c0bac92f7ce12d120018c931c4bea9f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-2/L3/Dungeon-2-L3-V1.prefab
+  importAddress: Guid(25f65f63d4682e546aa41215ff631b6a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/Dungeon-2/L3/Dungeon-2-L3-V1.prefab using Guid(25f65f63d4682e546aa41215ff631b6a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '0d5b5e7fddd18d90052e67443e2d5f57') in 0.003898801 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db01357a7c5467d628ff2765a6cf4928 DependenciesID=67b48cd331e2abe676fd9246895e048c StaticDependenciesID=0bef2fd62eeb38658fd95467212d93d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L1/CastBlocks-L1-V4.prefab
+  importAddress: Guid(14b7b2da0d0a09d4990d8ea1af2b194f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/LB3D/RandomBlocks/Prefabs/Blocks/CastBlocks/L1/CastBlocks-L1-V4.prefab using Guid(14b7b2da0d0a09d4990d8ea1af2b194f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '9252623d179eded5e8f8095f51bf6bd4') in 0.004141877 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=102efc5535bff73768cb9fde6778fb6a DependenciesID=7a1d406e9fc2231920d88d5efdc4bc8c StaticDependenciesID=4bca0f8b75d757de5b39c64ac075699b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.124033 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V5.mat
+  importAddress: Guid(adf426e467cf20d4aba79a62b064ba4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V5.mat using Guid(adf426e467cf20d4aba79a62b064ba4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c1efff7e13ea4e2a5e90eead7e06979d') in 0.012001857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1ec2270d27cbecccc2a2346e67b98c9 DependenciesID=d1369003ebb3b6e87fa5accec0d97f4b StaticDependenciesID=c6327f976f08defc89fdee76a5afd815 
+Number of updated asset objects reloaded before import = 20Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L1/CastBlocks-L1-v1.mat
+  importAddress: Guid(c134c39cb68e4ad4298a3f2f3aa69bbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L1/CastBlocks-L1-v1.mat using Guid(c134c39cb68e4ad4298a3f2f3aa69bbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0dc07fed38551536e2168f342140fb74') in 0.00681495 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31964c235deaa52738a5ac73723729d8 DependenciesID=5375aa564740ad8e60a1106b1be46226 StaticDependenciesID=11feb9bc7ff6f2db0dc4a25491bacab8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-2/L2/Dungeon-2-L2-V1.mat
+  importAddress: Guid(9db0680c40c0dfc4e99391318e91e787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-2/L2/Dungeon-2-L2-V1.mat using Guid(9db0680c40c0dfc4e99391318e91e787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '56dd4f01d5d9fd8e79e314c5a82d5803') in 0.004975089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25aebbc526a7b169da6f2f715716608b DependenciesID=88aac9860a4ac1d1ec945721e613cdf3 StaticDependenciesID=8f2271dd129efac819ed7474c2e68d34 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Floors/CastBlocks/CastBlocks-L0-v1.mat
+  importAddress: Guid(7af59c113ad74d24f856d04a1b0e382e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Floors/CastBlocks/CastBlocks-L0-v1.mat using Guid(7af59c113ad74d24f856d04a1b0e382e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2699d2d1256cd380a85442f6123403a') in 0.008373582 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ccc0ab2a0c58e6b2d717d91b2de8533 DependenciesID=54a0bcb1d9efa3435d499f6afa0d3a7f StaticDependenciesID=1be45bd6dec2f8b4d33dd453449acf4d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Floors/Block-Floor-Mossy/Floor-V15.mat
+  importAddress: Guid(8bde9ea0550c4db44bfc242a696725a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Floors/Block-Floor-Mossy/Floor-V15.mat using Guid(8bde9ea0550c4db44bfc242a696725a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b49593b667eb0ff2481f8b02e93a785') in 0.006539413 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e67d4cb94499825d644083d6df6aeb27 DependenciesID=5457e21690d13b5efeb4105c05f3a9db StaticDependenciesID=d3a57ee24b8b8d55974233b4a54dd8a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Floors/Block-Floor-Mossy/Floor-V2.mat
+  importAddress: Guid(0d8e5d325e087924ba50daaebe52f2ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Floors/Block-Floor-Mossy/Floor-V2.mat using Guid(0d8e5d325e087924ba50daaebe52f2ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'af1544c91353041c2dd24763117c6674') in 0.007216072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=118d087d74eeda37660aa04fd2ff0fdd DependenciesID=6c104f59e0f652f50e952a61c786de58 StaticDependenciesID=a53f8bd567911563b3e93b1d29d6f447 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-New/New-V3.mat
+  importAddress: Guid(06cec294f58bd6e4ea70c5134ad3ee42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-New/New-V3.mat using Guid(06cec294f58bd6e4ea70c5134ad3ee42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0dd5cc7aee1bb56c5c4482a83d39aaf9') in 0.004289604 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae379737bb2edd85ab3aa71f4bb1fee9 DependenciesID=29ac76e19936bfd1d85b3e2418f479fa StaticDependenciesID=74e99f380aa27cf179e3c5f5eeeafad1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Mudstone/L2/Mudstone-L2-v1.mat
+  importAddress: Guid(52cdfe587f085f741a1cb1bf3df4c5e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Mudstone/L2/Mudstone-L2-v1.mat using Guid(52cdfe587f085f741a1cb1bf3df4c5e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2afac7ac87e9861d475e6f8347af6bb') in 0.005331297 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01868eb5cde325e9e4c77ce58c8303f8 DependenciesID=e853873f878b2b4d9a42bf70c73a197c StaticDependenciesID=bce733b2129bc32a562400b336286db5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L1/CastBlocks-L1-v4.mat
+  importAddress: Guid(1f27364227de93b48832b462da1c801a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L1/CastBlocks-L1-v4.mat using Guid(1f27364227de93b48832b462da1c801a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0cc65127377326bf2bcd0bd29eed616b') in 0.005447235 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82dd9ccfacc5b2af07893218697d232e DependenciesID=513378f770ac388396548ef6fd44607b StaticDependenciesID=c965ebccbec060b06ec6715185f32881 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-1/L2/Dungeon-1-L2-v1.mat
+  importAddress: Guid(9d066beb239e7b642afc04f00db39f1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-1/L2/Dungeon-1-L2-v1.mat using Guid(9d066beb239e7b642afc04f00db39f1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '729a16444b86cf2ee231fde0be3a3ff1') in 0.004315914 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf0b88dacbf5128c4439b3d05cb3fb8f DependenciesID=0c6846abbb7c01030fbafcfb56975cee StaticDependenciesID=6c79db4a5ce733be224150d572da5ba7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/ManyVertical/L2/ManyVertical-L2-v2.mat
+  importAddress: Guid(314ef4f9442073742985fc35dfc659a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/ManyVertical/L2/ManyVertical-L2-v2.mat using Guid(314ef4f9442073742985fc35dfc659a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7393f8ffd9e5245cbdfab6f1abb99141') in 0.00400451 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a5032a782e4f203760438f4755ad520 DependenciesID=167cadb7b785ef0e5e81bf5668e36e38 StaticDependenciesID=0a193ac487ed1a59d565ca8df90618bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L3/CastBlocks-L3-v1.mat
+  importAddress: Guid(8d990ed84d11da84890ca59d71bbe7c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L3/CastBlocks-L3-v1.mat using Guid(8d990ed84d11da84890ca59d71bbe7c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab54b0da2f2bab23a7b23c5dd54510df') in 0.003732409 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f05efe791275dbea49aeb7d89490eba9 DependenciesID=78144cdbc50bba2161d22d75bd54b5ec StaticDependenciesID=226bb08abba764caf7eed0f01ce9f001 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V2.mat
+  importAddress: Guid(c09073b7d3de88a4a9900ecaf955a8ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V2.mat using Guid(c09073b7d3de88a4a9900ecaf955a8ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '61a85f1391bd6740838bbbe554bd4bca') in 0.003724935 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f1feb63833625d18761850b69333547 DependenciesID=236980c4b7f9a52eee4d3198e290aa70 StaticDependenciesID=e3766be0f9c445da05a218ce9ebb46ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-New/New-V2.mat
+  importAddress: Guid(9f7e3f2d588fefd4783a86f5c7169fa2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-New/New-V2.mat using Guid(9f7e3f2d588fefd4783a86f5c7169fa2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dfd011801347ce432f96cef98bdf193c') in 0.003981216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=decb3a6368cf43f16acb7fe986364bbd DependenciesID=9390f599bc8f5fe57729bebd6aa352f5 StaticDependenciesID=ec61a92474532141998afd6c90e92dc1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-4/L3/Dungeon-4-L3-V1.mat
+  importAddress: Guid(cafd50355323be9458bdbb20141ce8a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-4/L3/Dungeon-4-L3-V1.mat using Guid(cafd50355323be9458bdbb20141ce8a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '38bd7b14ecfc5187e52340462330da9d') in 0.005080417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae54652335a85c21632512e12eb79420 DependenciesID=d346e39473a3132a7df781facab35c55 StaticDependenciesID=5f1df669c461fc75925e2af78f65aeac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/SandStone/L2/Sandstone-L2-v1.mat
+  importAddress: Guid(5aac0afe6ed797247afd9afc124b4992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/SandStone/L2/Sandstone-L2-v1.mat using Guid(5aac0afe6ed797247afd9afc124b4992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cb084a8ba9177127643c207a3c86baf') in 0.007447837 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=849f1e77f675a55d0cbd1fe865019150 DependenciesID=3870ca82ca203de9b8272586da8feabd StaticDependenciesID=1d0e5299f8584dd870cab113c11d392a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Safezone/Wall_3.mat
+  importAddress: Guid(9fe54e4c7845f3044a821db739224be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Safezone/Wall_3.mat using Guid(9fe54e4c7845f3044a821db739224be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '063ed9151e917d12184271ae1cb7015a') in 0.025040016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df33879b2a8a2836a79f5f6a1f432914 DependenciesID=3eef0c0ee97a659abdd716ad019d95c1 StaticDependenciesID=5755d3537a967b7cc29f3ae927c47613 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-2/L1/Dungeon-2-L1-V1.mat
+  importAddress: Guid(ebbd6e09454bc4746a50db8883717cb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-2/L1/Dungeon-2-L1-V1.mat using Guid(ebbd6e09454bc4746a50db8883717cb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '531bd1beaf1d8d8451e978338eb50448') in 0.00533265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce5dfd54c808feedd6d4a189608a353b DependenciesID=361b9c845b68ceb21acde473ec11ac55 StaticDependenciesID=96d7fece03f4116faa598be1be029a62 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V2.mat
+  importAddress: Guid(4357672bcd38c6e47809b1cb4bcd5a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V2.mat using Guid(4357672bcd38c6e47809b1cb4bcd5a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70d208c561d13deddc520aea0da5ddea') in 0.003711029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9be7629a700b847d71e34f53c377f972 DependenciesID=9df5695901647c4b0bf4a4ec96b9e088 StaticDependenciesID=d545b68389ca3f6bee3690de3e67fafb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-New/New-V5.mat
+  importAddress: Guid(9148cfc12db6273478d777c57f1be704) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-New/New-V5.mat using Guid(9148cfc12db6273478d777c57f1be704) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e2270661763b484ff90baf4981caf4ee') in 0.003681554 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ff7de367e4897b3766df9a5fb547ac3 DependenciesID=d038ee0a961b3f6e156044c220885bbb StaticDependenciesID=339c453c03fcd1c854499ad81bdf51ce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/SandStone/L1/Sandstone-L1-v1.mat
+  importAddress: Guid(bfc9d9c48e2085b42a0b2b57e4a7a73e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/SandStone/L1/Sandstone-L1-v1.mat using Guid(bfc9d9c48e2085b42a0b2b57e4a7a73e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '721fb68ce1a6df9e2caa93987085fdb9') in 0.00434056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0b477f98485a0caaf70f9f93063c1a5 DependenciesID=b4cdde73784293b9181f97585cef456c StaticDependenciesID=3e0b83774e389bbf7275965f347e093b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V1.mat
+  importAddress: Guid(098dfc8046dbca741bcec18235d81ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old/Old-V1.mat using Guid(098dfc8046dbca741bcec18235d81ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '32e897f796c0e768102075ec02a4ad5d') in 0.008002506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70a75c5134752445be242e372884f329 DependenciesID=72c806e680685f9a4082c556db1ad36e StaticDependenciesID=901e61aa1c4f57b8e676675281ddfc2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V9.mat
+  importAddress: Guid(5921b9b58786d4d49b4c480d27d19813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V9.mat using Guid(5921b9b58786d4d49b4c480d27d19813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ce434f3325d6e49ee3f6dce69a26c83') in 0.003814693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb5ca57df639da7aedef1f7bc5e4e39d DependenciesID=bbefc51e4ec81729d3ce297c8b6e86b2 StaticDependenciesID=c19f215331bd0c1a1a87d132293eaf68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Floors/CastBlocks/CastBlocks-L0-v2.mat
+  importAddress: Guid(d3ce06f3e5649784a827896bccec1b3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Floors/CastBlocks/CastBlocks-L0-v2.mat using Guid(d3ce06f3e5649784a827896bccec1b3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '570a781f58cb1f523b8852c53a5316e8') in 0.007845953 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=377dd990351fa76e7748b29f71e4f86b DependenciesID=7cd888579adb28252631820c990df545 StaticDependenciesID=9d39e23f3c18b9469db67a8d15ba871c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L1/CastBlocks-L1-v3.mat
+  importAddress: Guid(7034e73e4c975dc449146d551af8779c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/CastBlocks/L1/CastBlocks-L1-v3.mat using Guid(7034e73e4c975dc449146d551af8779c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fba4fbd47958c97f8765dc09c2212a14') in 0.006071035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7cb68ba5bc3d5132c849555e7b8b36d DependenciesID=14837954c023764a550218f1be52d324 StaticDependenciesID=3f8c9e5a4dd6973d8916514101dee017 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V3.mat
+  importAddress: Guid(04ddef9ed862028488f8435b8f85901b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Default/Block-Old-Mossy/Old-Mossy-V3.mat using Guid(04ddef9ed862028488f8435b8f85901b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '00dc466bc87e676fc56a71b8f4ae5ba5') in 0.005052435 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98785e3c7c624afe3201fdd500f86602 DependenciesID=19608274a42443d26e6204ede3eff049 StaticDependenciesID=43940d70240e0d62131016a8f9cd5a7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Floors/Block-Floor-Mossy/Floor-V20.mat
+  importAddress: Guid(19732341b66e7534189fc3354a348e7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Floors/Block-Floor-Mossy/Floor-V20.mat using Guid(19732341b66e7534189fc3354a348e7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e54d5d5ea54481142f7210d44046f264') in 0.006100039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2a40f97b8a1e5b60b9979d1ad34c163 DependenciesID=46182dbf9d1b10b95a9fda031163a339 StaticDependenciesID=2f400cef2ff9f617673a87ff2c15d681 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Floors/Dungeon-4/Dungeon-4-L0-V1.mat
+  importAddress: Guid(49d2d1b6404cd264f9e184d6048047c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Floors/Dungeon-4/Dungeon-4-L0-V1.mat using Guid(49d2d1b6404cd264f9e184d6048047c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b33d0d5fcd0df3249c3b01b5a0b14251') in 0.005646518 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3248a30b9325fdc59168fc38e86c8be6 DependenciesID=8b381ce7b108a40d95f9ecd81d0b6a8a StaticDependenciesID=67c5867b2a3571717cc11684eee7f10a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-2/L3/Dungeon-2-L3-V1.mat
+  importAddress: Guid(b905902c2a961b140895508ebd0f820f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/LB3D/RandomBlocks/Materials/Blocks/Dungeon-2/L3/Dungeon-2-L3-V1.mat using Guid(b905902c2a961b140895508ebd0f820f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad8d02080a2040af02bb97d40418b8c8') in 0.003633694 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9c87fe3fa30816467345d6997cfa8d6 DependenciesID=108f5410362a47c000b61195d333e282 StaticDependenciesID=89a91b8a08edd3ff7b271057d0b50e4f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
+Vulkan PSO: data extracted [new size=162358, old size=0, incomplete=0]
+Vulkan PSO: Saved size[162358] path[/tmp/DefaultCompany/My project/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

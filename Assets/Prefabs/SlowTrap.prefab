@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8922402142376507701}
   m_Layer: 0
   m_Name: SlowTrap
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a96bce05602d35c8c9aa3a4e810ce093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  slowDebuff: -2
 --- !u!1 &3189959345811619555
 GameObject:
   m_ObjectHideFlags: 0

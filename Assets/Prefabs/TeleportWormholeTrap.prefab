@@ -62,6 +62,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleportA
       objectReference: {fileID: 0}
+    - target: {fileID: 2295704797100047501, guid: 8574f59caf2642d79a54b3bf848cc4cd, type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
+      objectReference: {fileID: 0}
     - target: {fileID: 2964344274158122135, guid: 8574f59caf2642d79a54b3bf848cc4cd, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -159,6 +163,10 @@ PrefabInstance:
     - target: {fileID: 2295704797100047501, guid: 8574f59caf2642d79a54b3bf848cc4cd, type: 3}
       propertyPath: m_Name
       value: TeleportB
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295704797100047501, guid: 8574f59caf2642d79a54b3bf848cc4cd, type: 3}
+      propertyPath: m_TagString
+      value: Teleporter
       objectReference: {fileID: 0}
     - target: {fileID: 2964344274158122135, guid: 8574f59caf2642d79a54b3bf848cc4cd, type: 3}
       propertyPath: m_LocalScale.x

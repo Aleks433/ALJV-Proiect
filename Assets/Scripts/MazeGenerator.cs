@@ -2,11 +2,10 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 
-[ExecuteInEditMode]
 public class MazeGenerator : MonoBehaviour
 {
     public int width = 21, height = 21; // Use odd numbers
-    private int[,] grid;
+    public int[,] grid;
     private Stack<Vector2Int> stack = new();
 
     public GameObject wallPrefab;
@@ -15,14 +14,15 @@ public class MazeGenerator : MonoBehaviour
     public GameObject teleporterPrefab;
     public int teleporterPairCount = 3;
     public GameObject startPrefab, endPrefab;
-    public Vector3 startWorldPos;
-    public Vector3 endWorldPos;
+    public Transform startPosition;
+    public Transform endPosition;
 
     public void ClearMaze()
     {
+        stack.Clear();
         // Destroy all children of this GameObject
         for (int i = transform.childCount - 1; i >= 0; i--)
-            DestroyImmediate(transform.GetChild(i).gameObject);
+            Destroy(transform.GetChild(i).gameObject);
     }
     public void Generate()
     {
@@ -32,14 +32,14 @@ public class MazeGenerator : MonoBehaviour
     void PlaceStartAndEnd()
     {
         // Start is always (1,1) — where DFS begins
-        grid[1, 1] = 0;
-        startWorldPos = new Vector3(1 * 3, 1.5f, 1 * 3);
-        Instantiate(startPrefab, startWorldPos, Quaternion.identity, transform);
+        grid[1, 1] = 1;
+        Vector3 startPos = new Vector3(1 * 3, 1.5f, 1 * 3);
+        startPosition = Instantiate(startPrefab, transform.TransformPoint(startPos), Quaternion.identity, transform).transform;
 
         // End is bottom-right corner — always (width-2, height-2)
-        grid[width - 2, height - 2] = 0;
-        endWorldPos = new Vector3((width - 2) * 3, 1.5f, (height - 2) * 3);
-        Instantiate(endPrefab, endWorldPos, Quaternion.identity, transform);
+        grid[width - 2, height - 2] = 1;
+        Vector3 endPos= new Vector3((width - 2) * 3, 1.5f, (height - 2) * 3);
+        endPosition = Instantiate(endPrefab, transform.TransformPoint(endPos), Quaternion.identity, transform).transform;
 
     }
     void GenerateMaze()
@@ -101,7 +101,7 @@ public class MazeGenerator : MonoBehaviour
             {
                 Vector3 pos = new Vector3(x * 3, 1.5f, y * 3);
                 if (grid[x, y] == 0)
-                    Instantiate(wallPrefab, pos, Quaternion.identity, transform);
+                    Instantiate(wallPrefab, transform.TransformPoint(pos), Quaternion.identity, transform);
             }
         }
     }
@@ -116,7 +116,7 @@ public class MazeGenerator : MonoBehaviour
             Vector3 pos = new Vector3(openCells[i].x * 3, 1.5f, openCells[i].y * 3);
 
             GameObject trapPrefab = trapPrefabs[Random.Range(0, trapPrefabs.Count)];
-            Instantiate(trapPrefab, pos, Quaternion.identity, transform);
+            Instantiate(trapPrefab, transform.TransformPoint(pos), Quaternion.identity, transform);
         }
     }
     void PlaceTeleporters()
@@ -131,8 +131,8 @@ public class MazeGenerator : MonoBehaviour
             Vector3 posA = new Vector3(openCells[index].x * 3, 1.5f, openCells[index].y * 3);
             Vector3 posB = new Vector3(openCells[index + 1].x * 3, 1.5f, openCells[index + 1].y * 3);
 
-            teleporter.teleportA.transform.position = posA;
-            teleporter.teleportB.transform.position = posB;
+            teleporter.teleportA.transform.position = transform.TransformPoint(posA);
+            teleporter.teleportB.transform.position = transform.TransformPoint(posB);
 
 
             index += 2;

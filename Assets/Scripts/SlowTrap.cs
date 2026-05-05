@@ -21,6 +21,10 @@ public class SlowTrap : MonoBehaviour
         {
             other.GetComponent<PlayerMovement>().walkSpeed += slowDebuff;
         }
+        if(other.CompareTag("Agent"))
+        {
+            other.GetComponent<MazeAgent>().ApplyMovementModifier(-slowDebuff);
+        }
         
     }
     void OnTriggerExit(Collider other)
@@ -28,6 +32,10 @@ public class SlowTrap : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             other.GetComponent<PlayerMovement>().walkSpeed -= slowDebuff;
+        }
+        if(other.CompareTag("Agent"))
+        {
+            other.GetComponent<MazeAgent>().ApplyMovementModifier(slowDebuff);
         }
         
     }

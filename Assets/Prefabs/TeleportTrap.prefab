@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8810526518377112829}
   m_Layer: 0
   m_Name: TeleportTrap
-  m_TagString: Untagged
+  m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,6 +90,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2113320867047848567
 BoxCollider:
@@ -125,3 +126,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   teleportLocation: {fileID: 0}
+  timer: {fileID: 0}

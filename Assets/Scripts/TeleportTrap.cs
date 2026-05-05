@@ -13,17 +13,15 @@ public class TeleportTrap : MonoBehaviour
     public void TriggerTrap(GameObject toTeleport)
     {
         timer.StartTimer();
-        toTeleport.GetComponent<CharacterController>().enabled = false;
-        toTeleport.transform.SetPositionAndRotation(new Vector3(transform.position.x, transform.position.y, transform.position.z), quaternion.identity);
-        toTeleport.GetComponent<CharacterController>().enabled = true;
+        toTeleport.GetComponent<MazeAgent>().TeleportAgent(teleportLocation.transform);
     }
     void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Agent"))
         {
             if(!timer.triggered)
             {
-                teleportLocation.TriggerTrap(other.gameObject);
+                TriggerTrap(other.gameObject);
             }
         }
     }
