@@ -1,0 +1,56 @@
+{
+    "MazeAgent": {
+        "checkpoints": [
+            {
+                "steps": 193702,
+                "file_path": "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-193702.onnx",
+                "reward": null,
+                "creation_time": 1779748606.6435392,
+                "auxillary_file_paths": [
+                    "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-193702.pt"
+                ]
+            },
+            {
+                "steps": 200326,
+                "file_path": "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-200326.onnx",
+                "reward": 17.724557876586914,
+                "creation_time": 1779748799.6674302,
+                "auxillary_file_paths": [
+                    "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-200326.pt"
+                ]
+            },
+            {
+                "steps": 295122,
+                "file_path": "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-295122.onnx",
+                "reward": null,
+                "creation_time": 1779749011.461573,
+                "auxillary_file_paths": [
+                    "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-295122.pt"
+                ]
+            },
+            {
+                "steps": 350036,
+                "file_path": "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-350036.onnx",
+                "reward": -725264.6033203125,
+                "creation_time": 1779749234.987226,
+                "auxillary_file_paths": [
+                    "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-350036.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 350036,
+            "file_path": "results/static_noTraps_burst_observations/MazeAgent.onnx",
+            "reward": -725264.6033203125,
+            "creation_time": 1779749234.987226,
+            "auxillary_file_paths": [
+                "results/static_noTraps_burst_observations/MazeAgent/MazeAgent-350036.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu130"
+    }
+}

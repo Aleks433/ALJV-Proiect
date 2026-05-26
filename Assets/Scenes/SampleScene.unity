@@ -173,12 +173,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -238,12 +234,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -892,12 +884,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -957,12 +945,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1221,12 +1205,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1286,12 +1266,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1501,12 +1477,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1566,12 +1538,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1625,21 +1593,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5649199256201158855, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 5022602860645237092, guid: 37175d150424689c6b4e6c5d80ecaddd, type: 3}
     - target: {fileID: 5851568955706157008, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
       propertyPath: m_Name
       value: Environment
-      objectReference: {fileID: 0}
-    - target: {fileID: 7325072321408614601, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: healthBarForeground
-      value: 
-      objectReference: {fileID: 1119068291}
-    - target: {fileID: 8093779107685746667, guid: 5305ecd0bc660ce4291851abe0dc5605, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

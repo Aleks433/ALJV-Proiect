@@ -1,0 +1,56 @@
+{
+    "MazeAgent": {
+        "checkpoints": [
+            {
+                "steps": 499936,
+                "file_path": "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-499936.onnx",
+                "reward": 31.111850102742512,
+                "creation_time": 1779725613.5069432,
+                "auxillary_file_paths": [
+                    "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-499936.pt"
+                ]
+            },
+            {
+                "steps": 999935,
+                "file_path": "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-999935.onnx",
+                "reward": 30.893909454345703,
+                "creation_time": 1779726342.748273,
+                "auxillary_file_paths": [
+                    "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-999935.pt"
+                ]
+            },
+            {
+                "steps": 1499856,
+                "file_path": "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-1499856.onnx",
+                "reward": 30.001023460836972,
+                "creation_time": 1779726902.6080666,
+                "auxillary_file_paths": [
+                    "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-1499856.pt"
+                ]
+            },
+            {
+                "steps": 1647186,
+                "file_path": "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-1647186.onnx",
+                "reward": null,
+                "creation_time": 1779727085.6468139,
+                "auxillary_file_paths": [
+                    "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-1647186.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1647186,
+            "file_path": "results/maze_noTraps_idlePenalty/MazeAgent.onnx",
+            "reward": null,
+            "creation_time": 1779727085.6468139,
+            "auxillary_file_paths": [
+                "results/maze_noTraps_idlePenalty/MazeAgent/MazeAgent-1647186.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu130"
+    }
+}

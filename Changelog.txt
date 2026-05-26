@@ -1,0 +1,61 @@
+Ultimul milestone
+Problema principala: agentul nu ajunge la o solutie optima
+Cauze: 
+	-> antrenare
+		- am incercat schimbare weight-uri:
+			- dinamic, in functie de raportul MaxSteps/StepCount
+			- punand mai mult accent pe vizitarea celulelor
+			nevizitate
+			- randomness (generare maze nou, odata ce l-a rezolvat
+			pe cel vechi)
+			- cresterea reward-urilor/penalizarilor pentru
+			explorare, odata ce agentul ajungea consistent la
+			final si penalizare in functie de cati pasi a facut
+
+		- am facut MaxSteps adaptiv(odata ce agentul completa un
+		nivel, numarul de MaxSteps scadea iar cand ramanea fara
+		mutari, MaxSteps crestea la urmatorul episod	
+
+		- agentul este penalizat pentru episod terminat fara
+		rezolvarea maze-ului
+
+
+	-> prea multe request-uri pentru actiuni(cerea 5 pe secunda) care
+	ajung prea repede la MaxStep
+
+		- rezolvat prin a cere actiuni dupa ce agentul isi termina
+		actiunea curenta
+
+
+	-> agentul nu avea mascate deciziile invalide(putea sa mearga in zid):
+
+		- rezolvat prin a pune o masca peste actiuni
+	
+
+	-> Discrepanta in colectarea de observatii:
+
+		multe observatii foloseau coordonate globale si le-am schimbat
+		in coordonate locale
+
+
+	-> Capcanele erau interpretate ca si ziduri:
+
+		- bug din maze generator, grid-ul cu obstacole continea si
+		capcane. Rezolvat prin adaugarea unei masti cu pozitiile
+		capcanelor
+	
+Moduri de antrenare:
+	-> static maze no traps
+		- agentul converge la solutii in 1033 de mutari
+	
+	-> random maze no traps
+		- agentul are rezultate variate in mutari dar consistente
+		- ajunge la solutii intre 700-1000 de mutari
+	
+	-> random maze teleporters
+		- agentul ajunge la solutii cu mutari variate(solutii intre
+		1000+ mutari si sub 100, in unele cazuri)
+		- nu este consistent(are un winrate de ~20%)
+
+Am renuntat la capcanele de slow si damage, deoarece omorau agentul repede si
+este un bug la capcana de slow

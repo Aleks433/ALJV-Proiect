@@ -1,0 +1,38 @@
+{
+    "MazeAgent": {
+        "checkpoints": [
+            {
+                "steps": 479568,
+                "file_path": "results/random_maze_no_traps/MazeAgent/MazeAgent-479568.onnx",
+                "reward": 5.014046129507896,
+                "creation_time": 1779792276.4968028,
+                "auxillary_file_paths": [
+                    "results/random_maze_no_traps/MazeAgent/MazeAgent-479568.pt"
+                ]
+            },
+            {
+                "steps": 490478,
+                "file_path": "results/random_maze_no_traps/MazeAgent/MazeAgent-490478.onnx",
+                "reward": 4.648167241026055,
+                "creation_time": 1779793980.7926674,
+                "auxillary_file_paths": [
+                    "results/random_maze_no_traps/MazeAgent/MazeAgent-490478.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 490478,
+            "file_path": "results/random_maze_no_traps/MazeAgent.onnx",
+            "reward": 4.648167241026055,
+            "creation_time": 1779793980.7926674,
+            "auxillary_file_paths": [
+                "results/random_maze_no_traps/MazeAgent/MazeAgent-490478.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu130"
+    }
+}

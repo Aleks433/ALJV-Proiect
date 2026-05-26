@@ -5,7 +5,9 @@ using System.Linq;
 public class MazeGenerator : MonoBehaviour
 {
     public int width = 21, height = 21; // Use odd numbers
+    [SerializeField]
     public int[,] grid;
+    public int[,] trapGrid;
     private Stack<Vector2Int> stack = new();
 
     public GameObject wallPrefab;
@@ -16,13 +18,22 @@ public class MazeGenerator : MonoBehaviour
     public GameObject startPrefab, endPrefab;
     public Transform startPosition;
     public Transform endPosition;
+    public bool randomSeed;
+    public int seed;
 
     public void ClearMaze()
     {
         stack.Clear();
         // Destroy all children of this GameObject
         for (int i = transform.childCount - 1; i >= 0; i--)
-            Destroy(transform.GetChild(i).gameObject);
+            if(Application.isPlaying) {
+                Destroy(transform.GetChild(i).gameObject);
+            }
+            else
+            {
+                DestroyImmediate(transform.GetChild(i).gameObject);
+            }
+
     }
     public void Generate()
     {
@@ -44,12 +55,20 @@ public class MazeGenerator : MonoBehaviour
     }
     void GenerateMaze()
     {
+        if(!randomSeed)
+        {
+            Random.InitState(seed);
+        } 
         grid = new int[width, height]; // 0 = wall, 1 = path
+        trapGrid = new int[width, height];
 
         // Fill with walls
         for (int x = 0; x < width; x++)
-            for (int y = 0; y < height; y++)
+            for (int y = 0; y < height; y++) 
+            {
                 grid[x, y] = 0;
+                trapGrid[x, y] = 0;
+            }
 
         Vector2Int start = new Vector2Int(1, 1);
         grid[start.x, start.y] = 1;
@@ -77,6 +96,7 @@ public class MazeGenerator : MonoBehaviour
         PlaceTraps();
         PlaceTeleporters();
     }
+
 
     List<Vector2Int> GetUnvisitedNeighbors(Vector2Int cell)
     {
@@ -113,6 +133,7 @@ public class MazeGenerator : MonoBehaviour
         for (int i = 0; i < Mathf.Min(trapCount, openCells.Count); i++)
         {
             grid[openCells[i].x, openCells[i].y] = 0;
+            trapGrid[openCells[i].x, openCells[i].y] = 1;
             Vector3 pos = new Vector3(openCells[i].x * 3, 1.5f, openCells[i].y * 3);
 
             GameObject trapPrefab = trapPrefabs[Random.Range(0, trapPrefabs.Count)];
@@ -130,6 +151,8 @@ public class MazeGenerator : MonoBehaviour
             TeleportTimer teleporter = Instantiate(teleporterPrefab, transform).GetComponent<TeleportTimer>();
             Vector3 posA = new Vector3(openCells[index].x * 3, 1.5f, openCells[index].y * 3);
             Vector3 posB = new Vector3(openCells[index + 1].x * 3, 1.5f, openCells[index + 1].y * 3);
+            trapGrid[openCells[index].x, openCells[index].y] =  1;
+            trapGrid[openCells[index + 1].x, openCells[index + 1].y] =  1;
 
             teleporter.teleportA.transform.position = transform.TransformPoint(posA);
             teleporter.teleportB.transform.position = transform.TransformPoint(posB);

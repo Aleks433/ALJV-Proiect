@@ -1,0 +1,65 @@
+{
+    "MazeAgent": {
+        "checkpoints": [
+            {
+                "steps": 700274,
+                "file_path": "results/static_noTraps/MazeAgent/MazeAgent-700274.onnx",
+                "reward": 65.29655838012695,
+                "creation_time": 1779740090.221293,
+                "auxillary_file_paths": [
+                    "results/static_noTraps/MazeAgent/MazeAgent-700274.pt"
+                ]
+            },
+            {
+                "steps": 864681,
+                "file_path": "results/static_noTraps/MazeAgent/MazeAgent-864681.onnx",
+                "reward": 56.17455863952637,
+                "creation_time": 1779740995.6076326,
+                "auxillary_file_paths": [
+                    "results/static_noTraps/MazeAgent/MazeAgent-864681.pt"
+                ]
+            },
+            {
+                "steps": 999805,
+                "file_path": "results/static_noTraps/MazeAgent/MazeAgent-999805.onnx",
+                "reward": 50.77455806732178,
+                "creation_time": 1779741154.8436022,
+                "auxillary_file_paths": [
+                    "results/static_noTraps/MazeAgent/MazeAgent-999805.pt"
+                ]
+            },
+            {
+                "steps": 1160520,
+                "file_path": "results/static_noTraps/MazeAgent/MazeAgent-1160520.onnx",
+                "reward": null,
+                "creation_time": 1779741389.4644716,
+                "auxillary_file_paths": [
+                    "results/static_noTraps/MazeAgent/MazeAgent-1160520.pt"
+                ]
+            },
+            {
+                "steps": 1490372,
+                "file_path": "results/static_noTraps/MazeAgent/MazeAgent-1490372.onnx",
+                "reward": 7.524558782577515,
+                "creation_time": 1779742148.1572201,
+                "auxillary_file_paths": [
+                    "results/static_noTraps/MazeAgent/MazeAgent-1490372.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1490372,
+            "file_path": "results/static_noTraps/MazeAgent.onnx",
+            "reward": 7.524558782577515,
+            "creation_time": 1779742148.1572201,
+            "auxillary_file_paths": [
+                "results/static_noTraps/MazeAgent/MazeAgent-1490372.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu130"
+    }
+}

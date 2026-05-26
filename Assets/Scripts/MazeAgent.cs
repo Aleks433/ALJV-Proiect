@@ -24,28 +24,40 @@ public class MazeAgent : Agent
 
     private CharacterController controller;
     private float distanceToPreviousStep;
-    private HashSet<Vector2Int> visitedCells = new HashSet<Vector2Int>();
+    [SerializeField]
+    public HashSet<Vector2Int> visitedCells = new HashSet<Vector2Int>();
+    private bool completedLastMaze;
 
+
+
+    void Start()
+    {
+        completedLastMaze = false;
+        mazeGenerator.Generate();
+    }
     public override void Initialize()
     {
         controller = GetComponent<CharacterController>();
+        MaxStep = 5000;
+        mazeGenerator.Generate();
     }
 
     public void TakeDamage(int damage)
     {
        currentHealth -= damage; 
-       AddReward(-(damage / maxHealth) * 0.5f);
+       AddReward(-((float)damage / maxHealth) * 0.5f);
 
        if(currentHealth <= 0)
         {
-            AddReward(-10f);
+            Debug.Log("Agent Died");
+            AddReward(-5f);
             EndEpisode();
         }
     }
     public void ApplyMovementModifier(float movement)
     {
         moveSpeed = movement;
-        AddReward(-0.0001f);
+        AddReward(-0.01f);
     }
 
     public void TeleportAgent(Transform where)
@@ -56,18 +68,31 @@ public class MazeAgent : Agent
         transform.SetPositionAndRotation(new Vector3(where.position.x, where.position.y, where.position.z), Quaternion.identity);
         controller.enabled = true;
         isMoving = false;
+        RequestDecision();
 
     }
     // Called at the start of every training episode
     public override void OnEpisodeBegin()
     {
         StopAllCoroutines();
+
+        if(!completedLastMaze)
+        {
+            Debug.Log("Agent out of moves");
+            MaxStep += 10;
+        }
+        else
+        {
+            // Generate a fresh maze
+            mazeGenerator.Generate();
+        }
+        completedLastMaze = false;
+        visitedCells.Clear();
+
         currentHealth = maxHealth;
         moveSpeed = baseMoveSpeed;
 
         isMoving = false;
-        // Generate a fresh maze
-        mazeGenerator.Generate();
 
         // Move agent to start
         controller.enabled = false;
@@ -79,29 +104,45 @@ public class MazeAgent : Agent
         endTransform = mazeGenerator.endPosition;
 
         distanceToPreviousStep = Vector3.Distance(transform.position, endTransform.position);
+        RequestDecision();
     }
 
     // Define what the agent observes
     public override void CollectObservations(VectorSensor sensor)
     {
-        // Agent's position normalized by maze size
+        // Position (2)
         sensor.AddObservation(transform.localPosition.x / (mazeGenerator.width * 3));
         sensor.AddObservation(transform.localPosition.z / (mazeGenerator.height * 3));
-
-        // End position normalized
-        sensor.AddObservation(endTransform.position.x / (mazeGenerator.width * 3));
-        sensor.AddObservation(endTransform.position.z / (mazeGenerator.height * 3));
-
-        // Direction to end
-        Vector3 dirToEnd = (endTransform.position - transform.position).normalized;
+    
+        // End position (2)
+        sensor.AddObservation(endTransform.localPosition.x / (mazeGenerator.width * 3));
+        sensor.AddObservation(endTransform.localPosition.z / (mazeGenerator.height * 3));
+    
+        // Direction to end (2)
+        Vector3 dirToEnd = (endTransform.localPosition - transform.localPosition).normalized;
         sensor.AddObservation(dirToEnd.x);
         sensor.AddObservation(dirToEnd.z);
-
-        // Distance to end (normalized)
-        sensor.AddObservation(Vector3.Distance(transform.position, endTransform.position)
+    
+        // Distance to end (1)
+        sensor.AddObservation(Vector3.Distance(transform.localPosition, endTransform.localPosition)
             / (mazeGenerator.width * mazeGenerator.height * 3));
+    
+        // Health (1)
+        sensor.AddObservation(currentHealth / maxHealth);
+    
+        // Visited cell ratio (1)
+        int totalCells = (mazeGenerator.width * mazeGenerator.height) / 2;
+        sensor.AddObservation((float)visitedCells.Count / totalCells);
+    
     }
 
+    public override void WriteDiscreteActionMask(IDiscreteActionMask actionMask)
+    {
+        actionMask.SetActionEnabled(0, 0, !IsWall(transform.position + Vector3.forward * 3));
+        actionMask.SetActionEnabled(0, 1, !IsWall(transform.position + Vector3.back * 3));
+        actionMask.SetActionEnabled(0, 2, !IsWall(transform.position + Vector3.left * 3));
+        actionMask.SetActionEnabled(0, 3, !IsWall(transform.position + Vector3.right * 3));
+    }
     // Act on decisions from the neural network
     public override void OnActionReceived(ActionBuffers actions)
     {
@@ -119,23 +160,18 @@ public class MazeAgent : Agent
             _ => Vector3.zero
         };
 
-        if (direction == Vector3.zero)
-        {
-            AddReward(-0.001f); // discourage idling
-            return;
-        }
 
         Vector3 desiredTarget = transform.position + direction * 3f;
+        CheckVisited(desiredTarget);
 
         // Check if target cell is a wall before moving
         if (IsWall(desiredTarget))
         {
-            AddReward(-0.5f); // penalty for hitting walls
+            Debug.Log("Agent hit a Wall");
             return;
         }
 
         StartCoroutine(MoveToCell(desiredTarget));
-
     }
     IEnumerator MoveToCell(Vector3 target)
     {
@@ -162,15 +198,21 @@ public class MazeAgent : Agent
 
         isMoving = false;
 
+        if (StepCount >= MaxStep - 1)
+        {
+            AddReward(-5f);
+        }
+
         // Reward shaping after completing a move
         float distanceNow = Vector3.Distance(transform.position, endTransform.position);
         float progress = distanceToPreviousStep - distanceNow;
-        AddReward(progress * 0.01f);
+        AddReward(progress * 0.1f);
         distanceToPreviousStep = distanceNow;
 
-        // AddReward(-0.001f); // time penalty per step
+        AddReward(-0.1f); // time penalty per step
+        RequestDecision();
     }
-    bool IsWall(Vector3 worldPos)
+    void CheckVisited(Vector3 worldPos)
     {
         Vector3 localPos = mazeGenerator.transform.InverseTransformPoint(worldPos);
         // Convert world position to grid coordinates
@@ -180,20 +222,32 @@ public class MazeAgent : Agent
         Vector2Int currentCell = new Vector2Int(gridX, gridY);
         if(visitedCells.Contains(currentCell))
         {
-            AddReward(-0.07f);
+            
+            AddReward(-0.7f);
         }
         else
         {
-            AddReward(1f);
+            AddReward(0.7f);
             visitedCells.Add(currentCell);
         }
+
+    }
+    bool IsWall(Vector3 worldPos)
+    {
+        Vector3 localPos = mazeGenerator.transform.InverseTransformPoint(worldPos);
+        // Convert world position to grid coordinates
+        int gridX = Mathf.RoundToInt(localPos.x / 3);
+        int gridY = Mathf.RoundToInt(localPos.z / 3);
+
+        Vector2Int currentCell = new Vector2Int(gridX, gridY);
 
         // Out of bounds = treat as wall
         if (gridX < 0 || gridX >= mazeGenerator.width ||
             gridY < 0 || gridY >= mazeGenerator.height)
             return true;
 
-        return mazeGenerator.grid[gridX, gridY] == 0;
+        
+        return mazeGenerator.grid[gridX, gridY] == 0 && mazeGenerator.trapGrid[gridX, gridY] != 1;
     }
 
     // Manual control for testing
@@ -201,27 +255,32 @@ public class MazeAgent : Agent
     {
     var discrete = actionsOut.DiscreteActions;
 
-    if (Input.GetKeyDown(KeyCode.W)) discrete[0] = 0;
-    if (Input.GetKeyDown(KeyCode.S)) discrete[0] = 1;
-    if (Input.GetKeyDown(KeyCode.A)) discrete[0] = 2;
-    if (Input.GetKeyDown(KeyCode.D)) discrete[0] = 3;
+    if (Input.GetKey(KeyCode.W)) discrete[0] = 0;
+    if (Input.GetKey(KeyCode.S)) discrete[0] = 1;
+    if (Input.GetKey(KeyCode.A)) discrete[0] = 2;
+    if (Input.GetKey(KeyCode.D)) discrete[0] = 3;
 }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("End"))
         {
-            Debug.Log("Completed Maze");
-            AddReward(10f);       // big reward for finishing
+            Debug.Log("Completed Maze in " + StepCount.ToString());
+            completedLastMaze = true;
+            float efficiency  = 1f - ((float)StepCount / MaxStep);
+            AddReward(10f + efficiency);
+            MaxStep -= 100;
             EndEpisode();
         }
 
         if (other.CompareTag("Trap"))
         {
             // EndEpisode();         // or just penalize without ending
+            Debug.Log("Agent went through a trap");
         }
         if (other.CompareTag("Teleporter"))
         {
+            Debug.Log("Agent went through a teleporter");
             AddReward(0.1f);
         }
     }
